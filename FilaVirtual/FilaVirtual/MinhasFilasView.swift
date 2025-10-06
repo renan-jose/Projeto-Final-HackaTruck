@@ -6,13 +6,20 @@ struct MinhasFilasView: View{
         
         NavigationStack{
             
-            VStack{
+            ZStack{
                 
-                Text("Minhas filas")
-                    .font(.system(size: 25))
-                    .foregroundColor(.verde)
+                Color.verde
+                    .edgesIgnoringSafeArea(.top)
                 
-                ScrollView{
+                VStack{
+                    
+                    Text("Minhas filas")
+                        .font(.system(size: 25))
+                        .foregroundColor(.white)
+                    
+                    ScrollView{
+                        
+                    }
                     
                 }
                 

@@ -17,6 +17,7 @@
 		46F32D432E94444A00DB2CA8 /* FuncionarioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F32D422E94444A00DB2CA8 /* FuncionarioView.swift */; };
 		46F32D452E9444A100DB2CA8 /* AdicionarFilaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F32D442E9444A100DB2CA8 /* AdicionarFilaView.swift */; };
 		46F32D472E94450800DB2CA8 /* FilasCriadasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F32D462E94450800DB2CA8 /* FilasCriadasView.swift */; };
+		46F32D492E9447DC00DB2CA8 /* EditarFilaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F32D482E9447DC00DB2CA8 /* EditarFilaView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		46F32D422E94444A00DB2CA8 /* FuncionarioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuncionarioView.swift; sourceTree = "<group>"; };
 		46F32D442E9444A100DB2CA8 /* AdicionarFilaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdicionarFilaView.swift; sourceTree = "<group>"; };
 		46F32D462E94450800DB2CA8 /* FilasCriadasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilasCriadasView.swift; sourceTree = "<group>"; };
+		46F32D482E9447DC00DB2CA8 /* EditarFilaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditarFilaView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				46F32D442E9444A100DB2CA8 /* AdicionarFilaView.swift */,
 				46F32D462E94450800DB2CA8 /* FilasCriadasView.swift */,
 				46F32D422E94444A00DB2CA8 /* FuncionarioView.swift */,
+				46F32D482E9447DC00DB2CA8 /* EditarFilaView.swift */,
 				46822B422E8F079200BB02CB /* Assets.xcassets */,
 				46822B442E8F079200BB02CB /* Preview Content */,
 			);
@@ -162,6 +165,7 @@
 				46F32D3B2E9433E100DB2CA8 /* FilasProximasView.swift in Sources */,
 				46822B3F2E8F079100BB02CB /* FilaVirtualApp.swift in Sources */,
 				46F32D3F2E94398100DB2CA8 /* ClienteView.swift in Sources */,
+				46F32D492E9447DC00DB2CA8 /* EditarFilaView.swift in Sources */,
 				46F32D452E9444A100DB2CA8 /* AdicionarFilaView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

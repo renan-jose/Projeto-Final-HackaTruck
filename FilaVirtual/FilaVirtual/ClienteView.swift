@@ -13,7 +13,7 @@ struct ClienteView: View{
             
             MinhasFilasView()
                 .tabItem {
-                    Label("Filas próximas", systemImage: "line.3.horizontal")
+                    Label("Minhas filas", systemImage: "line.3.horizontal")
                 }
             
         }

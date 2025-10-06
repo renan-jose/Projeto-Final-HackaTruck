@@ -22,65 +22,72 @@ struct FilasProximasView: View{
     var arrayLocais = [
         Location(nome: "Cristo Redentor", foto: "cristo_redentor", descricao: "Muito bonito", latitude: -22.9520561, longitude: -43.2105388),
         Location(nome: "UEL", foto: "uel", descricao: "A melhor universidade do Brasil!", latitude: -23.325886835891122, longitude: -51.202285355810226)
-    
+        
     ]
+    
     
     var body: some View{
         
-        VStack{
+        ZStack{
             
-            Text("Filas próximas")
-                .font(.system(size: 25))
-                .foregroundColor(.verde)
+            Color.verde
+                .edgesIgnoringSafeArea(.top)
             
-            ZStack{
+            VStack{
+                        
+                Text("Filas próximas")
+                    .font(.system(size: 25))
+                    .foregroundColor(.white)
                 
-                Rectangle()
-                    .frame(width: 300, height: 500)
-                    .foregroundColor(.verde)
-                    .cornerRadius(15)
-                
-                Map(position: $position){
-                    ForEach(arrayLocais, id: \.self){regiao in
-                        Annotation(regiao.nome ,coordinate: CLLocationCoordinate2D(latitude: regiao.latitude, longitude: regiao.longitude)){
-                            
-                            Button {
-                                if let index = arrayLocais.firstIndex(of: regiao) {
-                                    indiceSelecionado = index
-                                    mostrandoSheet = true
-                                }
-                            } label: {
-                                VStack {
-                                    Image(systemName: "mappin.circle.fill")
-                                        .foregroundColor(.black)
-                                        .font(.title)
-                                    Text(regiao.nome)
-                                        .font(.caption)
-                                        .fixedSize()
+                ZStack{
+                    
+                    Rectangle()
+                        .frame(width: 300, height: 500)
+                        .foregroundColor(.white)
+                        .cornerRadius(15)
+                    
+                    Map(position: $position){
+                        ForEach(arrayLocais, id: \.self){regiao in
+                            Annotation(regiao.nome ,coordinate: CLLocationCoordinate2D(latitude: regiao.latitude, longitude: regiao.longitude)){
+                                
+                                Button {
+                                    if let index = arrayLocais.firstIndex(of: regiao) {
+                                        indiceSelecionado = index
+                                        mostrandoSheet = true
+                                    }
+                                } label: {
+                                    VStack {
+                                        Image(systemName: "mappin.circle.fill")
+                                            .foregroundColor(.black)
+                                            .font(.title)
+                                        Text(regiao.nome)
+                                            .font(.caption)
+                                            .fixedSize()
+                                    }
                                 }
                             }
+                            
+                            
                         }
-                        
-                        
                     }
+                    .frame(width: 280, height: 480)
+                    .cornerRadius(15)
+                    
                 }
-                .frame(width: 280, height: 480)
+                
+                Button("Entrar de outra forma"){
+                    
+                }
+                .frame(width: 300, height: 60)
+                .background(Color.white)
+                .foregroundColor(.verde)
+                .font(.system(size: 30))
                 .cornerRadius(15)
-                
+                .padding(.top, 8)
+                        
             }
-            
-            Button("Entrar de outra forma"){
-                
-            }
-            .frame(width: 300, height: 60)
-            .background(Color.verde)
-            .foregroundColor(.white)
-            .font(.system(size: 30))
-            .cornerRadius(15)
-            .padding(.top, 8)
             
         }
-        
         
     }
     
