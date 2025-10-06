@@ -1,19 +1,19 @@
 import SwiftUI
 
-struct ClienteView: View{
+struct FuncionarioView: View{
     
     var body: some View{
         
         TabView{
             
-            FilasProximasView()
+            AdicionarFilaView()
                 .tabItem {
-                    Label("Filas próximas", systemImage: "pin.fill")
+                    Label("Adicionar fila", systemImage: "plus")
                 }
             
-            MinhasFilasView()
+            FilasCriadasView()
                 .tabItem {
-                    Label("Filas próximas", systemImage: "line.3.horizontal")
+                    Label("Filas criadas", systemImage: "line.3.horizontal")
                 }
             
         }
@@ -25,6 +25,6 @@ struct ClienteView: View{
 
 #Preview{
     
-    ClienteView()
+    FuncionarioView()
     
 }
