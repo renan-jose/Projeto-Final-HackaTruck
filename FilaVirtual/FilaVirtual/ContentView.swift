@@ -20,7 +20,7 @@ struct ContentView: View{
                 Spacer()
                 
                 Text("Selecione o tipo de usuário")
-                    .font(.system(size: 25))
+                    .font(.custom("BebasNeue-Regular", size: 15))
                     .foregroundColor(.verde)
                 
                 Button("Cliente"){
@@ -29,7 +29,7 @@ struct ContentView: View{
                 .frame(width: 300, height: 60)
                 .background(Color.verde)
                 .foregroundColor(.white)
-                .font(.system(size: 30))
+                .font(.custom("MontserratAlternates-Bold", size: 25))
                 .cornerRadius(15)
                 .padding(.top, 8)
                 
@@ -39,7 +39,7 @@ struct ContentView: View{
                 .frame(width: 300, height: 60)
                 .background(Color.verde)
                 .foregroundColor(.white)
-                .font(.system(size: 30))
+                .font(.custom("MontserratAlternates-Bold", size: 25))
                 .cornerRadius(15)
                 .padding(.top, 8)
                 
