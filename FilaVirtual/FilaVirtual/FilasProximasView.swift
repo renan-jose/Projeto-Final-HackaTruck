@@ -36,13 +36,15 @@ struct FilasProximasView: View{
             VStack{
                         
                 Text("Filas próximas")
-                    .font(.system(size: 25))
+                    .font(.custom("MontserratAlternates-Bold", size: 25))
                     .foregroundColor(.white)
+                
+                Spacer()
                 
                 ZStack{
                     
                     Rectangle()
-                        .frame(width: 300, height: 500)
+                        .frame(width: 300, height: 420)
                         .foregroundColor(.white)
                         .cornerRadius(15)
                     
@@ -70,7 +72,7 @@ struct FilasProximasView: View{
                             
                         }
                     }
-                    .frame(width: 280, height: 480)
+                    .frame(width: 280, height: 400)
                     .cornerRadius(15)
                     
                 }
@@ -81,9 +83,11 @@ struct FilasProximasView: View{
                 .frame(width: 300, height: 60)
                 .background(Color.white)
                 .foregroundColor(.verde)
-                .font(.system(size: 30))
+                .font(.custom("MontserratAlternates-Bold", size: 20))
                 .cornerRadius(15)
                 .padding(.top, 8)
+                
+                Spacer()
                         
             }
             

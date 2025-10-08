@@ -20,7 +20,7 @@ struct ContentView: View{
                 Spacer()
                 
                 Text("Selecione o tipo de usuário")
-                    .font(.custom("BebasNeue-Regular", size: 15))
+                    .font(.custom("BebasNeue-Regular", size: 20))
                     .foregroundColor(.verde)
                 
                 Button("Cliente"){
@@ -43,6 +43,7 @@ struct ContentView: View{
                 .cornerRadius(15)
                 .padding(.top, 8)
                 
+                Spacer()
                 Spacer()
                 
             }

@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct MinhasFilasView: View{
-    
+    @State private var fila = ["João", "Maria", "Ana"]
     var body: some View{
         
         NavigationStack{
@@ -18,7 +18,7 @@ struct MinhasFilasView: View{
                         .foregroundColor(.white)
                     
                     ScrollView{
-                        
+
                     }
                     
                 }

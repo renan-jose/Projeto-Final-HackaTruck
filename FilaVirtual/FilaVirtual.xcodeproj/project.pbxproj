@@ -23,6 +23,8 @@
 		A1B351942E96D515008ED851 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1B351932E96D515008ED851 /* Montserrat-Bold.ttf */; };
 		A1B351962E96D528008ED851 /* MontserratAlternates-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1B351952E96D528008ED851 /* MontserratAlternates-Bold.ttf */; };
 		A1B351982E96D53A008ED851 /* BebasNeue-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1B351972E96D53A008ED851 /* BebasNeue-Regular.ttf */; };
+		A1E408D02E96E4AA00716D2E /* EntrarFilaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E408CF2E96E4AA00716D2E /* EntrarFilaView.swift */; };
+		A1E408D22E96F5BB00716D2E /* ColocarSenhaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E408D12E96F5BB00716D2E /* ColocarSenhaView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		A1B351952E96D528008ED851 /* MontserratAlternates-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Bold.ttf"; sourceTree = "<group>"; };
 		A1B351972E96D53A008ED851 /* BebasNeue-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BebasNeue-Regular.ttf"; sourceTree = "<group>"; };
 		A1B351992E96D58B008ED851 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A1E408CF2E96E4AA00716D2E /* EntrarFilaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntrarFilaView.swift; sourceTree = "<group>"; };
+		A1E408D12E96F5BB00716D2E /* ColocarSenhaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColocarSenhaView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,13 +86,15 @@
 				46822B402E8F079100BB02CB /* ContentView.swift */,
 				46F32D3A2E9433E100DB2CA8 /* FilasProximasView.swift */,
 				46F32D402E943FDF00DB2CA8 /* MinhasFilasView.swift */,
-				46F32D3E2E94398100DB2CA8 /* ClienteView.swift */,
 				46F32D442E9444A100DB2CA8 /* AdicionarFilaView.swift */,
 				46F32D462E94450800DB2CA8 /* FilasCriadasView.swift */,
-				46F32D422E94444A00DB2CA8 /* FuncionarioView.swift */,
 				46F32D482E9447DC00DB2CA8 /* EditarFilaView.swift */,
+				A1E408CF2E96E4AA00716D2E /* EntrarFilaView.swift */,
+				46F32D3E2E94398100DB2CA8 /* ClienteView.swift */,
+				46F32D422E94444A00DB2CA8 /* FuncionarioView.swift */,
 				46822B422E8F079200BB02CB /* Assets.xcassets */,
 				46822B442E8F079200BB02CB /* Preview Content */,
+				A1E408D12E96F5BB00716D2E /* ColocarSenhaView.swift */,
 			);
 			path = FilaVirtual;
 			sourceTree = "<group>";
@@ -188,6 +194,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1E408D02E96E4AA00716D2E /* EntrarFilaView.swift in Sources */,
+				A1E408D22E96F5BB00716D2E /* ColocarSenhaView.swift in Sources */,
 				46822B412E8F079100BB02CB /* ContentView.swift in Sources */,
 				46F32D412E943FDF00DB2CA8 /* MinhasFilasView.swift in Sources */,
 				46F32D472E94450800DB2CA8 /* FilasCriadasView.swift in Sources */,
