@@ -3,21 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		216723352E9825BB002FCD9A /* FilaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216723342E9825B8002FCD9A /* FilaService.swift */; };
+		2167233A2E983025002FCD9A /* EntradaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216723392E983020002FCD9A /* EntradaService.swift */; };
 		46822B3F2E8F079100BB02CB /* FilaVirtualApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46822B3E2E8F079100BB02CB /* FilaVirtualApp.swift */; };
 		46822B412E8F079100BB02CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46822B402E8F079100BB02CB /* ContentView.swift */; };
 		46822B432E8F079200BB02CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46822B422E8F079200BB02CB /* Assets.xcassets */; };
 		46822B462E8F079200BB02CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46822B452E8F079200BB02CB /* Preview Assets.xcassets */; };
-		46F32D3B2E9433E100DB2CA8 /* FilasProximasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F32D3A2E9433E100DB2CA8 /* FilasProximasView.swift */; };
-		46F32D3F2E94398100DB2CA8 /* ClienteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F32D3E2E94398100DB2CA8 /* ClienteView.swift */; };
-		46F32D412E943FDF00DB2CA8 /* MinhasFilasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F32D402E943FDF00DB2CA8 /* MinhasFilasView.swift */; };
-		46F32D432E94444A00DB2CA8 /* FuncionarioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F32D422E94444A00DB2CA8 /* FuncionarioView.swift */; };
-		46F32D452E9444A100DB2CA8 /* AdicionarFilaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F32D442E9444A100DB2CA8 /* AdicionarFilaView.swift */; };
-		46F32D472E94450800DB2CA8 /* FilasCriadasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F32D462E94450800DB2CA8 /* FilasCriadasView.swift */; };
-		46F32D492E9447DC00DB2CA8 /* EditarFilaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F32D482E9447DC00DB2CA8 /* EditarFilaView.swift */; };
 		A1B351902E96D4F6008ED851 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1B3518F2E96D4F6008ED851 /* Montserrat-Regular.ttf */; };
 		A1B351922E96D501008ED851 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1B351912E96D501008ED851 /* Montserrat-Medium.ttf */; };
 		A1B351942E96D515008ED851 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1B351932E96D515008ED851 /* Montserrat-Bold.ttf */; };
@@ -26,25 +21,25 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		216723342E9825B8002FCD9A /* FilaService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilaService.swift; sourceTree = "<group>"; };
+		216723392E983020002FCD9A /* EntradaService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntradaService.swift; sourceTree = "<group>"; };
 		46822B3B2E8F079100BB02CB /* FilaVirtual.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FilaVirtual.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46822B3E2E8F079100BB02CB /* FilaVirtualApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilaVirtualApp.swift; sourceTree = "<group>"; };
 		46822B402E8F079100BB02CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		46822B422E8F079200BB02CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46822B452E8F079200BB02CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		46F32D3A2E9433E100DB2CA8 /* FilasProximasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilasProximasView.swift; sourceTree = "<group>"; };
-		46F32D3E2E94398100DB2CA8 /* ClienteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClienteView.swift; sourceTree = "<group>"; };
-		46F32D402E943FDF00DB2CA8 /* MinhasFilasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinhasFilasView.swift; sourceTree = "<group>"; };
-		46F32D422E94444A00DB2CA8 /* FuncionarioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuncionarioView.swift; sourceTree = "<group>"; };
-		46F32D442E9444A100DB2CA8 /* AdicionarFilaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdicionarFilaView.swift; sourceTree = "<group>"; };
-		46F32D462E94450800DB2CA8 /* FilasCriadasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilasCriadasView.swift; sourceTree = "<group>"; };
-		46F32D482E9447DC00DB2CA8 /* EditarFilaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditarFilaView.swift; sourceTree = "<group>"; };
 		A1B3518F2E96D4F6008ED851 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		A1B351912E96D501008ED851 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
 		A1B351932E96D515008ED851 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
 		A1B351952E96D528008ED851 /* MontserratAlternates-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Bold.ttf"; sourceTree = "<group>"; };
 		A1B351972E96D53A008ED851 /* BebasNeue-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BebasNeue-Regular.ttf"; sourceTree = "<group>"; };
-		A1B351992E96D58B008ED851 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A1B351992E96D58B008ED851 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		21187D822E96EC7800E9DF21 /* Views */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Views; sourceTree = "<group>"; };
+		216723262E98254C002FCD9A /* New Models */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "New Models"; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		46822B382E8F079100BB02CB /* Frameworks */ = {
@@ -57,6 +52,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		216723332E9825A7002FCD9A /* New API */ = {
+			isa = PBXGroup;
+			children = (
+				216723392E983020002FCD9A /* EntradaService.swift */,
+				216723342E9825B8002FCD9A /* FilaService.swift */,
+			);
+			path = "New API";
+			sourceTree = "<group>";
+		};
 		46822B322E8F079100BB02CB = {
 			isa = PBXGroup;
 			children = (
@@ -76,19 +80,15 @@
 		46822B3D2E8F079100BB02CB /* FilaVirtual */ = {
 			isa = PBXGroup;
 			children = (
-				A1B351992E96D58B008ED851 /* Info.plist */,
-				A1B351892E96D40B008ED851 /* fonts */,
-				46822B3E2E8F079100BB02CB /* FilaVirtualApp.swift */,
+				216723332E9825A7002FCD9A /* New API */,
+				216723262E98254C002FCD9A /* New Models */,
+				21187D822E96EC7800E9DF21 /* Views */,
 				46822B402E8F079100BB02CB /* ContentView.swift */,
-				46F32D3A2E9433E100DB2CA8 /* FilasProximasView.swift */,
-				46F32D402E943FDF00DB2CA8 /* MinhasFilasView.swift */,
-				46F32D3E2E94398100DB2CA8 /* ClienteView.swift */,
-				46F32D442E9444A100DB2CA8 /* AdicionarFilaView.swift */,
-				46F32D462E94450800DB2CA8 /* FilasCriadasView.swift */,
-				46F32D422E94444A00DB2CA8 /* FuncionarioView.swift */,
-				46F32D482E9447DC00DB2CA8 /* EditarFilaView.swift */,
-				46822B422E8F079200BB02CB /* Assets.xcassets */,
+				46822B3E2E8F079100BB02CB /* FilaVirtualApp.swift */,
+				A1B351892E96D40B008ED851 /* fonts */,
 				46822B442E8F079200BB02CB /* Preview Content */,
+				A1B351992E96D58B008ED851 /* Info.plist */,
+				46822B422E8F079200BB02CB /* Assets.xcassets */,
 			);
 			path = FilaVirtual;
 			sourceTree = "<group>";
@@ -127,6 +127,10 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				21187D822E96EC7800E9DF21 /* Views */,
+				216723262E98254C002FCD9A /* New Models */,
 			);
 			name = FilaVirtual;
 			productName = FilaVirtual;
@@ -189,14 +193,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				46822B412E8F079100BB02CB /* ContentView.swift in Sources */,
-				46F32D412E943FDF00DB2CA8 /* MinhasFilasView.swift in Sources */,
-				46F32D472E94450800DB2CA8 /* FilasCriadasView.swift in Sources */,
-				46F32D432E94444A00DB2CA8 /* FuncionarioView.swift in Sources */,
-				46F32D3B2E9433E100DB2CA8 /* FilasProximasView.swift in Sources */,
+				216723352E9825BB002FCD9A /* FilaService.swift in Sources */,
 				46822B3F2E8F079100BB02CB /* FilaVirtualApp.swift in Sources */,
-				46F32D3F2E94398100DB2CA8 /* ClienteView.swift in Sources */,
-				46F32D492E9447DC00DB2CA8 /* EditarFilaView.swift in Sources */,
-				46F32D452E9444A100DB2CA8 /* AdicionarFilaView.swift in Sources */,
+				2167233A2E983025002FCD9A /* EntradaService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +337,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -367,6 +367,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
