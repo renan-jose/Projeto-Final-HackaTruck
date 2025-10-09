@@ -90,11 +90,11 @@
 				46F32D462E94450800DB2CA8 /* FilasCriadasView.swift */,
 				46F32D482E9447DC00DB2CA8 /* EditarFilaView.swift */,
 				A1E408CF2E96E4AA00716D2E /* EntrarFilaView.swift */,
+				A1E408D12E96F5BB00716D2E /* ColocarSenhaView.swift */,
 				46F32D3E2E94398100DB2CA8 /* ClienteView.swift */,
 				46F32D422E94444A00DB2CA8 /* FuncionarioView.swift */,
 				46822B422E8F079200BB02CB /* Assets.xcassets */,
 				46822B442E8F079200BB02CB /* Preview Content */,
-				A1E408D12E96F5BB00716D2E /* ColocarSenhaView.swift */,
 			);
 			path = FilaVirtual;
 			sourceTree = "<group>";

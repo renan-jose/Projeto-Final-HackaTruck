@@ -19,8 +19,10 @@ struct ColocarSenhaView: View {
                 Text("Entrar na Fila")
                     .font(.custom("MontserratAlternates-Bold", size: 25))
                     .foregroundColor(.white)
+                    .padding(.top, 20)
                 
                 Spacer()
+                    .frame(height: 40)
                 
                 ZStack {
                     Rectangle()
@@ -32,8 +34,10 @@ struct ColocarSenhaView: View {
                         Text("Fila RU")
                             .font(.custom("MontserratAlternates-Bold", size: 30))
                             .foregroundStyle(.verde)
+                        
                         Spacer()
-                            .frame(height: 30)
+                            .frame(height: 40)
+                        
                         HStack {
                             VStack {
                                 Image(systemName: "person.2.fill")
@@ -99,7 +103,7 @@ struct ColocarSenhaView: View {
                                 Text("32 min")
                                     .foregroundStyle(.verde)
                                     .font(.custom("Montserrat-Regular", size: 20))
-                                
+                                    
                                 Spacer()
                                     .frame(height: 5)
                                 
@@ -119,7 +123,7 @@ struct ColocarSenhaView: View {
                 }
                 
                 Spacer()
-                    .frame(height: 50)
+                    .frame(height: 20)
                 
                 HStack {
                     Text("Senha:")

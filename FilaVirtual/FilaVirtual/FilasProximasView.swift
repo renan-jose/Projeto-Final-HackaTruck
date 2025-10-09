@@ -38,9 +38,10 @@ struct FilasProximasView: View{
                 Text("Filas próximas")
                     .font(.custom("MontserratAlternates-Bold", size: 25))
                     .foregroundColor(.white)
+                    .padding(.top, 20)
                 
                 Spacer()
-                
+                    .frame(height: 40)
                 ZStack{
                     
                     Rectangle()
