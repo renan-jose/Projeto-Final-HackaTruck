@@ -41,6 +41,9 @@ struct LoginClienteView: View {
                 .background(Color.white)
                 .cornerRadius(10)
                 .padding(.horizontal)
+                
+                Spacer()
+                    .frame(height: 20)
 
                 HStack {
                     Text("Preferência")
@@ -48,7 +51,6 @@ struct LoginClienteView: View {
                         .foregroundColor(.verde)
                     
                     Spacer()
-                        .frame(height: 20)
                     
                     Toggle("", isOn: $isOn)
                         .labelsHidden()

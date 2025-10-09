@@ -15,7 +15,7 @@ struct MinhasFilasView: View {
         Fila(nome: "Fila TCGL", membros: "42", tempo: "19 min"),
         Fila(nome: "Hospital Veterinário", membros: "42", tempo: "32 min")
     ]
-    
+     
     var body: some View {
         NavigationStack {
             ZStack {

@@ -19,6 +19,7 @@ struct EntrarFilaView: View {
                 Text("Entrar na Fila")
                     .font(.custom("MontserratAlternates-Bold", size: 25))
                     .foregroundColor(.white)
+                    .padding(.top, 20)
                 
                 Spacer()
                 
@@ -37,7 +38,7 @@ struct EntrarFilaView: View {
                         }
                         .foregroundColor(.verde)
                     }
-                    .frame(width: 350, height: 60)
+                    .frame(width: 350, height: 50)
                     .background(Color.white)
                     .foregroundColor(.white)
                     .font(.custom("MontserratAlternates-Bold", size: 25))
@@ -73,10 +74,9 @@ struct EntrarFilaView: View {
                         .padding(.trailing, 10)
                             
                     TextField("", text: $userID)
-                        .frame(height: 30)
+                        .frame(height: 25)
                         .padding(10)
                         .background(.verdeEscuro)
-                        .cornerRadius(8)
                         .foregroundColor(.white)
 
                         }

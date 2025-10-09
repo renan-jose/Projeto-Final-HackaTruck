@@ -20,11 +20,9 @@ struct ClienteView: View{
                 .tabItem {
                     Label("Minhas filas", systemImage: "line.3.horizontal")
                 }
-                }
+        }
         .tint(.verde)
-        
     }
-    
 }
 
 #Preview{

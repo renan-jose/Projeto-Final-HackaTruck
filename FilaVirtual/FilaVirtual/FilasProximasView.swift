@@ -45,7 +45,7 @@ struct FilasProximasView: View{
                 ZStack{
                     
                     Rectangle()
-                        .frame(width: 300, height: 420)
+                        .frame(width: 300, height: 380)
                         .foregroundColor(.white)
                         .cornerRadius(15)
                     
@@ -73,7 +73,7 @@ struct FilasProximasView: View{
                             
                         }
                     }
-                    .frame(width: 280, height: 400)
+                    .frame(width: 280, height: 360)
                     .cornerRadius(15)
                     
                 }
