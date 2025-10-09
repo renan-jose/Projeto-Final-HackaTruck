@@ -136,7 +136,6 @@ struct ColocarSenhaView: View {
                         .frame(height: 30)
                         .padding(10)
                         .background(.verdeEscuro)
-                        .cornerRadius(10)
                         .foregroundColor(.white)
 
                         }

@@ -5,7 +5,6 @@ struct ContentView: View{
     var body: some View{
         
         ZStack{
-            
             Color.white
                 .ignoresSafeArea()
             
@@ -15,12 +14,12 @@ struct ContentView: View{
                     .resizable()
                     .scaledToFit()
                     .scaleEffect(0.8)
-                    .padding(.top, 64)
+                    .padding(.top, 60)
                 
                 Spacer()
                 
                 Text("Selecione o tipo de usuário")
-                    .font(.custom("BebasNeue-Regular", size: 20))
+                    .font(.custom("BebasNeue-Regular", size: 25))
                     .foregroundColor(.verde)
                 
                 Button("Cliente"){
